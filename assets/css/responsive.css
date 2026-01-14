@@ -1,0 +1,342 @@
+@media screen and (max-width:1399px) {
+    .ft-right-contact ul {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .cat-btn button {
+        margin-left: 14px;
+    }
+
+    .min-menu ul li {
+        margin-left: 25px;
+    }
+
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .ft-right-contact ul li {
+        gap: 4px;
+    }
+
+    .ft-right-contact ul li a {
+        font-size: 13px;
+    }
+
+    .title.elsf-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .ft-menu-lists ul li a {
+        font-size: 12px;
+    }
+
+    .user-profile .author-name {
+        font-size: 13px;
+    }
+
+    .course-meta-info .course-rating {
+        font-size: 10px;
+    }
+
+    .course-contant .courses-title {
+        font-size: 20px;
+    }
+
+    /* Coursee Details page */
+    .decision-making-container .title {
+        font-size: 28px;
+    }
+
+    .decision-making-container .course-meta-info .course-meta-details,
+    .decision-making-container .course-meta-info,
+    .decision-making-container .lng-update {
+        gap: 15px;
+    }
+
+    .overview-btn .course-overview-btn {
+        padding: 12px 23px;
+        gap: 8px;
+    }
+
+    .instructor-info .instructor-detals {
+        gap: 10px;
+    }
+
+    .instructor-profile-overview .profile,
+    .instructor-profile-overview .follow {
+        padding: 7px 9px;
+
+    }
+
+    .course-hang-tags .tage-btn {
+        padding: 3px 13px;
+    }
+
+    .course-reviews-video span {
+        top: 65px;
+        right: 97px;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .popup_sidebar_sec {
+        display: none !important;
+    }
+
+    body.addOverly::before {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .min-menu {
+        display: none;
+    }
+
+    .cat-btn button {
+        margin-left: 40px;
+    }
+
+
+    .mobile_menuBtn {
+        display: block;
+    }
+
+    .popup_sidebar_sec {
+        display: block;
+    }
+
+    body.addOverly::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000bd;
+        z-index: 99;
+    }
+
+    .user-profile .author-name {
+        font-size: 14px;
+    }
+
+    .course-meta-info .course-rating {
+        font-size: 14px;
+    }
+
+    .hero-content h1 {
+        font-size: 58px;
+    }
+
+    .ft-right-contact ul {
+        flex-direction: column;
+    }
+
+    .title.elsf-title {
+        font-size: 30px;
+        line-height: 41px;
+    }
+
+    .stat-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-stats-wrapar .stat-box h2 {
+        font-size: 45px;
+    }
+
+    .ft-menu-lists {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .accordion.qs-accordion .accordion-item {
+        padding: 7px 0;
+    }
+
+    .accordion-button {
+        font-size: 10px;
+    }
+
+    .about-course {
+        margin: 0 0 35px;
+    }
+
+    .asked-questions-arrea {
+        padding: 0;
+        margin: 0;
+    }
+
+    .articles-content .art-title {
+        font-size: 19px;
+    }
+
+    .instructor-info .instructor-detals {
+        gap: 18px;
+    }
+
+    .instructor-profile-overview .profile,
+    .instructor-profile-overview .follow {
+        padding: 7px 24px;
+    }
+
+
+    .course-reviews-video span {
+        top: 50%;
+        right: 50%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cat-btn {
+        display: none;
+    }
+
+    .right-menu-wraper .get-btn {
+        display: none;
+    }
+
+    .right-menu-btn {
+        border-right: none;
+    }
+
+    .hero-content h1 {
+        font-size: 54px;
+    }
+
+    .different-content .title.dif-title {
+        font-size: 42px;
+        line-height: 44px;
+        margin: 0;
+    }
+
+    .decision-making-container .title {
+        font-size: 23px;
+        margin: 0 0 10px;
+    }
+
+    .decision-making-container .subtitle {
+        font-size: 13px;
+    }
+
+    .overview-btn .course-overview-btn {
+        padding: 10px 15px;
+        gap: 6px;
+        font-size: 14px;
+    }
+
+    .decision-making-mastery-area {
+        margin: -322px 0 0;
+    }
+
+    .instructor-profile {
+        display: block;
+    }
+
+    .instructor-profile-overview {
+        margin: 15px 0 0;
+    }
+
+    .course-curriculum .accordion .accordion-button::after {
+        top: 20px;
+    }
+
+    .decision-making-container .course-meta-info {
+        flex-direction: column;
+    }
+
+    .curriculum-accordion-item-title .accordion-title {
+        font-size: 16px;
+    }
+
+    .curriculum-accordion-item-title small {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .course-meta-info .course-rating {
+        font-size: 14px;
+    }
+
+    .hero-content h1 {
+        font-size: 46px;
+        line-height: normal;
+    }
+
+    .section-heading.ask-qs-heading .title {
+        margin: 0;
+    }
+
+    .title {
+        font-size: 30px;
+        margin: 0 0 24px;
+        line-height: 38px;
+    }
+
+    .section-heading.ask-qs-heading .title {
+        margin: 0;
+        font-size: 28px;
+    }
+
+    .clients-feedback-area .section-heading .title {
+        font-size: 29px;
+    }
+}
+
+@media (max-width:420px) {
+    .curriculum-accordion-item-title .accordion-title {
+        font-size: 11px;
+    }
+
+    .curriculum-accordion-item-title small {
+        font-size: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .abour-content-wraper .about-info ul {
+        grid-template-columns: none;
+    }
+
+    .abour-content-wraper .about-info {
+        margin: 30px 0;
+    }
+
+    .popular-courses-area {
+        padding: 0;
+    }
+
+    .popular-courses-area .title {
+        font-size: 29px;
+    }
+
+    .user-profile .author-name,
+    .course-meta-info .course-rating {
+        font-size: 11px;
+    }
+
+    .section-heading.ask-qs-heading .title,
+    .clients-feedback-area .section-heading .title {
+        font-size: 25px;
+    }
+
+    .abour-content-wraper .title {
+        font-size: 27px;
+    }
+
+}

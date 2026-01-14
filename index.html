@@ -1,0 +1,2636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onlinedu HTML Teamplate</title>
+
+    <!-- START: Css Files -->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/preset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- START: Css Files -->
+
+    <!-- START: FavIcon    -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico.png" type="image/x-icon">
+    <!-- END: FavIcon   -->
+
+</head>
+
+<body>
+
+    <!-- START: Top Header Area  -->
+    <div class="top-header-area ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6  col-md-6 col-sm-6">
+                    <div class="d-flex  align-items-center">
+                        <div class="d-flex align-items-center">
+                            <div class="multi-currency fs-14 fw-normal">
+                                <select class="nice-select border-0 ">
+                                    <option data-display="United States (USD $)">United States (USD $)</option>
+                                    <option value="1">Canada (CAD $)</option>
+                                    <option value="2">United Kingdom (GBP £)</option>
+                                    <option value="3">European Union (EUR €)</option>
+                                    <option value="4">Australia (AUD $)</option>
+                                    <option value="5">Japan (JPY ¥)</option>
+                                    <option value="6">China (CNY ¥)</option>
+                                    <option value="7">India (INR ₹)</option>
+                                </select>
+                            </div>
+                            <div class="multi-language fs-14 fw-normal">
+                                <select class="nice-select border-0 ">
+                                    <option data-display="English">English</option>
+                                    <option value="1">Bangla</option>
+                                    <option value="2">Arabic</option>
+                                    <option value="3">India </option>
+                                    <option value="4">Malaysia </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="d-flex justify-content-end align-items-center header-right">
+                        <a href="#" class="notification-icon mx-3">
+                            <img src="assets/img/svg-icon/bell.svg" alt="">
+                        </a>
+                        <div class="auth-links d-flex align-items-center gap-3">
+                            <a c href="#">Login</a>
+                            <a href="#">Signup</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Top Header Area  -->
+
+
+    <!-- START: Header Area  -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-9 col-lg-9 col-md-6 col-sm-6">
+                    <div class="menu-wrapar ">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="assets/img/logo.png" alt="oinlinedu">
+                            </a>
+                        </div>
+                        <div class="cat-btn">
+                            <button type="button">
+                                <span>
+                                    <img src="assets/img/svg-icon/categories.svg" alt="Onlinedu">
+                                </span>
+                                All Categories
+                            </button>
+                        </div>
+                        <nav class="min-menu">
+                            <ul>
+                                <li>
+                                    <a class="active" href="index.html">Home <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="dropdown .aboutdropdown">
+                                        <li><a class="active" href="">About
+                                                <i class="fa-solid fa-angle-right"></i></a>
+                                            <!-- <ul class="dropdown">
+                                                <li><a class="active" href="">About 2 </a></li>
+                                                <li><a href="#">About 3</a></li>
+                                            </ul> -->
+                                        </li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">404</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="courses.html">Courses</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="right-menu-wraper">
+
+                        <button id="mobile_menuBtn" class="mobile_menuBtn">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+
+                        <button type="button" class="search-btn  btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#searchBtn">
+                            <img src="assets/img/svg-icon/search.svg" alt="Onlinedu search">
+                        </button>
+
+                        <a class="get-btn" href="#">Get Started</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- START: Search Modal For Header -->
+    <div class="modal fade" id="searchBtn" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="searchBox" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class=" search-area modal-content ">
+                <div class="modal-header">
+                    <h1 class="search-title " id="searchBox">Search</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="search-form" action="">
+                        <input type="search" placeholder="Search...">
+                        <button type="submit">
+                            <img src="assets/img/svg-icon/search.svg" alt="Onlinedu">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  END: Search Modal For Header -->
+
+    <!-- END: Header Area  -->
+
+    <!-- START: Mobile Mega Menu  -->
+    <div class="popup_sidebar_sec">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div class="logo">
+                <a href="#"> <img src="assets/img/logo.png" alt="oinlinedu"></a>
+            </div>
+            <button class="coloseBtn" id="colose">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="24" height="24" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
+                    xml:space="preserve" class="">
+                    <g>
+                        <path
+                            d="m292.2 256 109.9-109.9c10-10 10-26.2 0-36.2s-26.2-10-36.2 0L256 219.8 146.1 109.9c-10-10-26.2-10-36.2 0s-10 26.2 0 36.2L219.8 256 109.9 365.9c-10 10-10 26.2 0 36.2 5 5 11.55 7.5 18.1 7.5s13.1-2.5 18.1-7.5L256 292.2l109.9 109.9c5 5 11.55 7.5 18.1 7.5s13.1-2.5 18.1-7.5c10-10 10-26.2 0-36.2z"
+                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                    </g>
+                </svg>
+            </button>
+        </div>
+        <ul>
+            <li>
+                <a class="active" href="index.html">Home <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="dropdown .aboutdropdown">
+                    <li><a class="active" href="">About
+                            <i class="fa-solid fa-angle-right"></i></a>
+                        <!-- <ul class="dropdown">
+                                                <li><a class="active" href="">About 2 </a></li>
+                                                <li><a href="#">About 3</a></li>
+                                            </ul> -->
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">404</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <!-- END: Mobile Mega Menu  -->
+
+    <!-- START: Main Area  -->
+    <main class="main-area">
+
+        <!-- START: Hero Area  -->
+        <section class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="hero-content">
+                            <div class="badge fs-12">Learning That Lights the Way.</div>
+                            <h1>
+                                Turn Ambition into Action with Flexible
+                                <span class="gradient-text">Learning</span>
+                            </h1>
+                            <p>
+                                Access expert-led courses anytime, anywhere. Join thousands of learners growing their
+                                careers with us.
+                            </p>
+                            <div class="watch-courses">
+                                <a class="courses-link fs-14" href="#">Browse Courses</a>
+                                <a class="video-link" href="https://www.youtube.com/embed/1Ai3gcsiK70">
+                                    <span> <i class="fa-solid fa-play"></i></span>
+                                    Watch Video
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="hero-banner">
+                            <img src="assets/img/hero-banner-bg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Hero Area  -->
+
+        <!-- START: Top Categories SEC-->
+        <section class="categories-area">
+            <div class="container">
+                <div class="section-heading ">
+                    <h2 class="title">Top Categories</h2>
+                    <p class="subtitle">Master new skills across popular categories, handpicked by experts.</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="cats-box">
+                            <span class="cats-icon">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.6711 24.0673H3.75502C2.68388 24.0673 1.81207 23.1338 1.81207 21.9844V8.78404H26.2046V16.2751C26.2046 16.8115 26.6103 17.2465 27.1106 17.2465C27.6109 17.2465 28.0166 16.8115 28.0166 16.2751V4.01482C28.0166 1.80127 26.3375 0 24.2717 0H3.74495C1.68019 0 0 1.80019 0 4.01482V21.9844C0 24.2044 1.68422 26.01 3.75502 26.01H16.6711C17.1714 26.01 17.5771 25.5751 17.5771 25.0387C17.5771 24.5023 17.1714 24.0673 16.6711 24.0673ZM3.74495 1.94266H24.2717C25.3378 1.94266 26.2046 2.87189 26.2046 4.01482V6.84138H1.81207V4.01482C1.81207 2.87297 2.67885 1.94266 3.74495 1.94266Z"
+                                        fill="url(#paint0_linear_2_1177)" />
+                                    <path
+                                        d="M4.92219 5.25265C5.3692 5.25265 5.73158 4.86416 5.73158 4.38493C5.73158 3.9057 5.3692 3.51721 4.92219 3.51721C4.47517 3.51721 4.11279 3.9057 4.11279 4.38493C4.11279 4.86416 4.47517 5.25265 4.92219 5.25265Z"
+                                        fill="url(#paint1_linear_2_1177)" />
+                                    <path
+                                        d="M7.77375 5.25265C8.22076 5.25265 8.58314 4.86416 8.58314 4.38493C8.58314 3.9057 8.22076 3.51721 7.77375 3.51721C7.32673 3.51721 6.96436 3.9057 6.96436 4.38493C6.96436 4.86416 7.32673 5.25265 7.77375 5.25265Z"
+                                        fill="url(#paint2_linear_2_1177)" />
+                                    <path
+                                        d="M10.6243 5.25265C11.0713 5.25265 11.4337 4.86416 11.4337 4.38493C11.4337 3.9057 11.0713 3.51721 10.6243 3.51721C10.1773 3.51721 9.81494 3.9057 9.81494 4.38493C9.81494 4.86416 10.1773 5.25265 10.6243 5.25265Z"
+                                        fill="url(#paint3_linear_2_1177)" />
+                                    <path
+                                        d="M28.716 19.7299L20.0362 16.899C19.398 16.6918 18.7033 16.8763 18.2302 17.3825C17.756 17.8908 17.5829 18.6323 17.7782 19.3197L20.4188 28.6261C20.6523 29.4485 21.3218 29.9882 22.1231 30H22.1513C22.9406 30 23.611 29.4841 23.8647 28.679L25.0989 24.7473L28.7684 23.422C29.5284 23.1468 30.0117 22.4129 29.9996 21.5549C29.9875 20.6958 29.4831 19.9792 28.716 19.7299ZM24.5201 22.9083C23.9875 23.1014 23.5627 23.5569 23.3835 24.1267L22.1523 28.0606L19.5137 18.7596L28.1895 21.584L24.5201 22.9083Z"
+                                        fill="url(#paint4_linear_2_1177)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2_1177" x1="12.18" y1="21.3034" x2="-5.20526"
+                                            y2="21.9283" gradientUnits="userSpaceOnUse">
+                                            <stop offset="0.142367" stop-color="#FF8926" />
+                                            <stop offset="0.502344" stop-color="#FF6C3D" />
+                                            <stop offset="1" stop-color="#FF2676" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_2_1177" x1="4.81655" y1="4.93862" x2="3.81171"
+                                            y2="4.96989" gradientUnits="userSpaceOnUse">
+                                            <stop offset="0.142367" stop-color="#FF8926" />
+                                            <stop offset="0.502344" stop-color="#FF6C3D" />
+                                            <stop offset="1" stop-color="#FF2676" />
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear_2_1177" x1="7.66811" y1="4.93862" x2="6.66327"
+                                            y2="4.96989" gradientUnits="userSpaceOnUse">
+                                            <stop offset="0.142367" stop-color="#FF8926" />
+                                            <stop offset="0.502344" stop-color="#FF6C3D" />
+                                            <stop offset="1" stop-color="#FF2676" />
+                                        </linearGradient>
+                                        <linearGradient id="paint3_linear_2_1177" x1="10.5187" y1="4.93862" x2="9.51386"
+                                            y2="4.96989" gradientUnits="userSpaceOnUse">
+                                            <stop offset="0.142367" stop-color="#FF8926" />
+                                            <stop offset="0.502344" stop-color="#FF6C3D" />
+                                            <stop offset="1" stop-color="#FF2676" />
+                                        </linearGradient>
+                                        <linearGradient id="paint4_linear_2_1177" x1="23.0468" y1="27.6142" x2="15.4114"
+                                            y2="27.8519" gradientUnits="userSpaceOnUse">
+                                            <stop offset="0.142367" stop-color="#FF8926" />
+                                            <stop offset="0.502344" stop-color="#FF6C3D" />
+                                            <stop offset="1" stop-color="#FF2676" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <div class="cats-content">
+                                <h4>Web Design</h4>
+                                <p>56/Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="cats-box box02">
+                            <span class="cats-icon">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_1189)">
+                                        <path
+                                            d="M24.2773 13.3923L23.7303 13.6636V3.51573C23.7303 2.06185 22.5475 0.879028 21.0936 0.879028H2.6367C1.18282 0.879028 0 2.06185 0 3.51573V17.6367C0 19.0906 1.18282 20.2734 2.6367 20.2734H10.6054V21.7968C10.6054 22.7753 11.2944 23.5955 12.2127 23.7988L11.4962 28.0977C11.4069 28.6332 11.8206 29.1211 12.3632 29.1211H15.8788C16.3048 29.1211 16.6696 28.8155 16.7441 28.396L17.5381 23.93L24.2774 27.2717C24.8594 27.5604 25.5467 27.1366 25.5467 26.4844V14.1798C25.5467 13.5279 24.8604 13.1031 24.2773 13.3923ZM1.7578 17.6367V3.51573C1.7578 3.0311 2.15207 2.63683 2.6367 2.63683H21.0936C21.5782 2.63683 21.9725 3.0311 21.9725 3.51573V14.5352L17.372 16.8164H12.6562C11.6453 16.8164 10.8034 17.5518 10.6361 18.5156H2.6367C2.15207 18.5156 1.7578 18.1213 1.7578 17.6367ZM12.6562 22.0898C12.4946 22.0898 12.3632 21.9584 12.3632 21.7968V18.8672C12.3632 18.7056 12.4946 18.5742 12.6562 18.5742H16.6991V22.0898H12.6562ZM13.4007 27.3632L13.9866 23.8476H15.7673L15.1424 27.3632H13.4007ZM23.7889 25.0675L18.4569 22.4235V18.2405L23.7889 15.5965V25.0675Z"
+                                            fill="url(#paint0_linear_2_1189)" />
+                                        <path
+                                            d="M28.5356 17.6216L29.4731 17.2115C29.9178 17.0169 30.1206 16.4987 29.926 16.054C29.7315 15.6093 29.2132 15.4064 28.7686 15.6011L27.8311 16.0112C27.3863 16.2058 27.1835 16.724 27.3781 17.1687C27.5728 17.6137 28.0913 17.8161 28.5356 17.6216Z"
+                                            fill="url(#paint1_linear_2_1189)" />
+                                        <path
+                                            d="M29.4731 23.4526L28.5356 23.0424C28.0909 22.8479 27.5727 23.0506 27.3781 23.4953C27.1835 23.9401 27.3863 24.4583 27.8311 24.6528L28.7686 25.063C29.2132 25.2575 29.7315 25.0547 29.926 24.61C30.1206 24.1653 29.9178 23.6471 29.4731 23.4526Z"
+                                            fill="url(#paint2_linear_2_1189)" />
+                                        <path
+                                            d="M29.1211 19.4531H28.1836C27.6982 19.4531 27.3047 19.8466 27.3047 20.332C27.3047 20.8174 27.6982 21.2109 28.1836 21.2109H29.1211C29.6065 21.2109 30 20.8174 30 20.332C30 19.8466 29.6065 19.4531 29.1211 19.4531Z"
+                                            fill="url(#paint3_linear_2_1189)" />
+                                        <path
+                                            d="M15.7738 11.3623C16.4203 11.0391 16.4208 10.1135 15.7738 9.79004L8.74265 6.27444C8.15958 5.98288 7.4707 6.40733 7.4707 7.06059V14.0918C7.4707 14.7445 8.15953 15.1695 8.74265 14.8779L15.7738 11.3623ZM9.2285 8.48264L13.4155 10.5761L9.2285 12.6697V8.48264Z"
+                                            fill="url(#paint4_linear_2_1189)" />
+                                    </g>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2_1189" x1="12.7734" y1="0.879028"
+                                            x2="12.7734" y2="29.1211" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#6060FF" />
+                                            <stop offset="1" stop-color="#AD60FF" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_2_1189" x1="28.6521" y1="15.5271" x2="28.6521"
+                                            y2="17.6955" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#6060FF" />
+                                            <stop offset="1" stop-color="#AD60FF" />
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear_2_1189" x1="28.6521" y1="22.9685" x2="28.6521"
+                                            y2="25.1369" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#6060FF" />
+                                            <stop offset="1" stop-color="#AD60FF" />
+                                        </linearGradient>
+                                        <linearGradient id="paint3_linear_2_1189" x1="28.6523" y1="19.4531" x2="28.6523"
+                                            y2="21.2109" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#6060FF" />
+                                            <stop offset="1" stop-color="#AD60FF" />
+                                        </linearGradient>
+                                        <linearGradient id="paint4_linear_2_1189" x1="11.8648" y1="6.18079" x2="11.8648"
+                                            y2="14.9715" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#6060FF" />
+                                            <stop offset="1" stop-color="#AD60FF" />
+                                        </linearGradient>
+                                        <clipPath id="clip0_2_1189">
+                                            <rect width="30" height="30" fill="#0E0F14" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+
+                            </span>
+                            <div class="cats-content">
+                                <h4>Digital Marketing</h4>
+                                <p>56/Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="cats-box box03">
+                            <span class="cats-icon">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.49969 28.4375C7.12469 28.4375 6.72469 28.4 6.32469 28.325C6.11219 28.275 5.92469 28.2249 5.73719 28.1749C5.52469 28.1124 5.32468 28.0374 5.13718 27.9625C5.08718 27.9499 5.04971 27.925 5.01221 27.9125C4.57471 27.6875 4.19969 27.4625 3.86219 27.2125C3.83719 27.2 3.82471 27.1749 3.79971 27.1625C3.61221 27.0125 3.43719 26.8625 3.27469 26.6875C3.09969 26.5 2.97468 26.35 2.83718 26.2C2.54968 25.825 2.31219 25.4499 2.09969 25.0124C2.07469 24.9749 2.06221 24.9249 2.04971 24.8749C1.97471 24.6999 1.91218 24.525 1.86218 24.3375C1.78718 24.075 1.73718 23.9 1.69968 23.7125C1.61218 23.275 1.57471 22.8874 1.57471 22.5124V5.63745C1.57471 3.24995 3.24971 1.57495 5.63721 1.57495H9.38721C11.7747 1.57495 13.4497 3.24995 13.4497 5.63745V22.5C13.4497 24.05 12.8497 25.525 11.7622 26.6375C11.5622 26.8375 11.4122 26.975 11.2747 27.0875C10.8747 27.4375 10.3622 27.75 9.8122 27.975C9.6872 28.025 9.53719 28.0875 9.37469 28.15C8.76219 28.3375 8.12469 28.4375 7.49969 28.4375ZM5.92468 26.25C6.04968 26.3 6.17471 26.3375 6.29971 26.375C6.4372 26.4125 6.57469 26.45 6.71219 26.4875C7.39969 26.6125 8.13721 26.575 8.72471 26.375C8.81221 26.3375 8.93718 26.3 9.04968 26.25C9.44968 26.0875 9.77468 25.8875 10.0622 25.65C10.1872 25.55 10.2747 25.4625 10.3622 25.3875C11.1497 24.575 11.5622 23.5749 11.5622 22.5124V5.63745C11.5622 4.28745 10.7247 3.44995 9.37469 3.44995H5.62469C4.27469 3.44995 3.43719 4.28745 3.43719 5.63745V22.5C3.43719 22.7625 3.4622 23.0375 3.5247 23.325C3.5497 23.4375 3.58719 23.575 3.62469 23.725C3.67469 23.8624 3.71221 23.975 3.76221 24.1C3.78721 24.1375 3.79968 24.175 3.81218 24.2C3.82468 24.225 3.83718 24.2624 3.84968 24.2874C3.99968 24.5624 4.14971 24.7999 4.31221 25.0124C4.39971 25.1124 4.51221 25.2374 4.62471 25.3624C4.76221 25.5124 4.87469 25.6 4.99969 25.7C5.01219 25.7125 5.03721 25.725 5.04971 25.7375C5.24971 25.8875 5.47469 26.0249 5.73719 26.1624C5.76219 26.1749 5.78719 26.175 5.81219 26.1875C5.83719 26.2 5.87468 26.225 5.92468 26.25Z"
+                                        fill="url(#paint0_linear_2_1202)" />
+                                    <path
+                                        d="M24.375 28.4375H7.5C6.9875 28.4375 6.5625 28.0125 6.5625 27.5C6.5625 26.9875 6.9875 26.5625 7.5 26.5625C7.9375 26.5625 8.36251 26.5 8.72501 26.375C8.81251 26.3375 8.93749 26.3 9.04999 26.25C9.44999 26.0875 9.77498 25.8875 10.0625 25.65C10.1875 25.55 10.275 25.4625 10.3625 25.3875L18.9125 16.85C19.0875 16.675 19.325 16.575 19.575 16.575H24.375C26.7625 16.575 28.4375 18.25 28.4375 20.6375V24.3875C28.4375 26.7625 26.7625 28.4375 24.375 28.4375ZM11.825 26.5625H24.375C25.725 26.5625 26.5625 25.725 26.5625 24.375V20.625C26.5625 19.275 25.725 18.4375 24.375 18.4375H19.9625L11.825 26.5625Z"
+                                        fill="url(#paint1_linear_2_1202)" />
+                                    <path
+                                        d="M6.01226 28.2125C5.92476 28.2125 5.83727 28.2 5.74977 28.175C4.82477 27.9 3.97478 27.3875 3.29978 26.7C2.62478 26.0375 2.11227 25.1875 1.83727 24.2625C1.68727 23.7625 1.96227 23.25 2.46227 23.1C2.96227 22.95 3.47477 23.225 3.63727 23.7125C4.03727 24.9875 5.03725 25.9875 6.31225 26.3875C6.79975 26.5375 7.07478 27.0625 6.92478 27.5625C6.78728 27.95 6.41226 28.2125 6.01226 28.2125Z"
+                                        fill="url(#paint2_linear_2_1202)" />
+                                    <path
+                                        d="M11.0755 26.925C10.838 26.925 10.6005 26.8375 10.413 26.65C10.0505 26.2875 10.038 25.7 10.4005 25.325C11.1505 24.5625 11.563 23.55 11.563 22.4875V10.4125C11.563 10.1625 11.663 9.92497 11.838 9.74997L15.2255 6.36246C16.863 4.72496 19.338 4.72496 20.9755 6.36246L23.6255 9.01248C25.313 10.7 25.313 13.075 23.6255 14.7625L11.738 26.6375C11.5505 26.8375 11.313 26.925 11.0755 26.925ZM13.438 10.8125V22.3L22.3005 13.45C23.2505 12.5 23.2505 11.3125 22.3005 10.35L19.6505 7.69997C18.713 6.76247 17.488 6.76247 16.5505 7.69997L13.438 10.8125Z"
+                                        fill="url(#paint3_linear_2_1202)" />
+                                    <path
+                                        d="M7.49951 24.6874C6.29951 24.6874 5.31201 23.6999 5.31201 22.4999C5.31201 21.2999 6.29951 20.3124 7.49951 20.3124C8.69951 20.3124 9.68701 21.2999 9.68701 22.4999C9.68701 23.6999 8.69951 24.6874 7.49951 24.6874ZM7.49951 22.1874C7.32451 22.1874 7.18701 22.3249 7.18701 22.4999C7.18701 22.8499 7.81201 22.8499 7.81201 22.4999C7.81201 22.3249 7.67451 22.1874 7.49951 22.1874Z"
+                                        fill="url(#paint4_linear_2_1202)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2_1202" x1="7.51221" y1="1.57495" x2="7.51221"
+                                            y2="28.4375" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF4684" />
+                                            <stop offset="1" stop-color="#FF46E6" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_2_1202" x1="17.5" y1="16.575" x2="17.5"
+                                            y2="28.4375" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF4684" />
+                                            <stop offset="1" stop-color="#FF46E6" />
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear_2_1202" x1="4.38106" y1="23.059" x2="4.38106"
+                                            y2="28.2125" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF4684" />
+                                            <stop offset="1" stop-color="#FF46E6" />
+                                        </linearGradient>
+                                        <linearGradient id="paint3_linear_2_1202" x1="17.5129" y1="5.13434" x2="17.5129"
+                                            y2="26.925" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF4684" />
+                                            <stop offset="1" stop-color="#FF46E6" />
+                                        </linearGradient>
+                                        <linearGradient id="paint4_linear_2_1202" x1="7.49951" y1="20.3124" x2="7.49951"
+                                            y2="24.6874" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF4684" />
+                                            <stop offset="1" stop-color="#FF46E6" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <div class="cats-content">
+                                <h4>Color Theory</h4>
+                                <p>56/Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="cats-box box04">
+                            <span class="cats-icon">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20 28.4375H10C5.4375 28.4375 2.8125 25.8125 2.8125 21.25V8.75C2.8125 4.1875 5.4375 1.5625 10 1.5625H20C24.5625 1.5625 27.1875 4.1875 27.1875 8.75V21.25C27.1875 25.8125 24.5625 28.4375 20 28.4375ZM10 3.4375C6.425 3.4375 4.6875 5.175 4.6875 8.75V21.25C4.6875 24.825 6.425 26.5625 10 26.5625H20C23.575 26.5625 25.3125 24.825 25.3125 21.25V8.75C25.3125 5.175 23.575 3.4375 20 3.4375H10Z"
+                                        fill="url(#paint0_linear_2_1215)" />
+                                    <path
+                                        d="M23.125 11.5625H20.625C18.725 11.5625 17.1875 10.025 17.1875 8.125V5.625C17.1875 5.1125 17.6125 4.6875 18.125 4.6875C18.6375 4.6875 19.0625 5.1125 19.0625 5.625V8.125C19.0625 8.9875 19.7625 9.6875 20.625 9.6875H23.125C23.6375 9.6875 24.0625 10.1125 24.0625 10.625C24.0625 11.1375 23.6375 11.5625 23.125 11.5625Z"
+                                        fill="url(#paint1_linear_2_1215)" />
+                                    <path
+                                        d="M12.4998 22.1875C12.2623 22.1875 12.0248 22.1 11.8373 21.9125L9.3373 19.4125C8.9748 19.05 8.9748 18.4499 9.3373 18.0874L11.8373 15.5874C12.1998 15.2249 12.7998 15.2249 13.1623 15.5874C13.5248 15.9499 13.5248 16.55 13.1623 16.9125L11.3248 18.75L13.1623 20.5874C13.5248 20.9499 13.5248 21.55 13.1623 21.9125C12.9748 22.1 12.7373 22.1875 12.4998 22.1875Z"
+                                        fill="url(#paint2_linear_2_1215)" />
+                                    <path
+                                        d="M17.4998 22.1875C17.2623 22.1875 17.0248 22.1 16.8373 21.9125C16.4748 21.55 16.4748 20.9499 16.8373 20.5874L18.6748 18.75L16.8373 16.9125C16.4748 16.55 16.4748 15.9499 16.8373 15.5874C17.1998 15.2249 17.7998 15.2249 18.1623 15.5874L20.6623 18.0874C21.0248 18.4499 21.0248 19.05 20.6623 19.4125L18.1623 21.9125C17.9748 22.1 17.7373 22.1875 17.4998 22.1875Z"
+                                        fill="url(#paint3_linear_2_1215)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2_1215" x1="15" y1="1.5625" x2="15"
+                                            y2="28.4375" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#42B635" />
+                                            <stop offset="1" stop-color="#32B6A3" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_2_1215" x1="20.625" y1="4.6875" x2="20.625"
+                                            y2="11.5625" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#42B635" />
+                                            <stop offset="1" stop-color="#32B6A3" />
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear_2_1215" x1="11.2498" y1="15.3156" x2="11.2498"
+                                            y2="22.1875" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#42B635" />
+                                            <stop offset="1" stop-color="#32B6A3" />
+                                        </linearGradient>
+                                        <linearGradient id="paint3_linear_2_1215" x1="18.7498" y1="15.3156" x2="18.7498"
+                                            y2="22.1875" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#42B635" />
+                                            <stop offset="1" stop-color="#32B6A3" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="cats-content">
+                                <h4>Web Development</h4>
+                                <p>56/Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="cats-box box05">
+                            <span class="cats-icon">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.2501 27.3375C5.3251 27.3375 4.4126 26.9875 3.7126 26.2875C3.0376 25.6125 2.6626 24.7125 2.6626 23.75C2.6626 22.7875 3.0376 21.8875 3.7126 21.2125L19.9626 4.96248C21.3626 3.56248 23.6376 3.56248 25.0376 4.96248C25.7126 5.63748 26.0876 6.53748 26.0876 7.49998C26.0876 8.46248 25.7126 9.36248 25.0376 10.0375L8.7876 26.2875C8.0876 26.9875 7.1751 27.3375 6.2501 27.3375ZM22.5001 5.78748C22.0626 5.78748 21.6251 5.94998 21.2876 6.28748L5.0376 22.5375C4.7126 22.8625 4.5376 23.2875 4.5376 23.75C4.5376 24.2125 4.7126 24.6375 5.0376 24.9625C5.7001 25.625 6.8001 25.625 7.4626 24.9625L23.7126 8.71248C24.0376 8.38748 24.2126 7.96248 24.2126 7.49998C24.2126 7.03748 24.0376 6.61248 23.7126 6.28748C23.3751 5.94998 22.9376 5.78748 22.5001 5.78748Z"
+                                        fill="url(#paint0_linear_2186_537)" />
+                                    <path
+                                        d="M22.5125 12.175C22.275 12.175 22.0375 12.0875 21.85 11.9L18.1 8.14998C17.7375 7.78748 17.7375 7.18748 18.1 6.82498C18.4625 6.46248 19.0625 6.46248 19.425 6.82498L23.175 10.575C23.5375 10.9375 23.5375 11.5375 23.175 11.9C22.9875 12.0875 22.75 12.175 22.5125 12.175Z"
+                                        fill="#FF5049" />
+                                    <path
+                                        d="M12.4998 6.875C12.4373 6.875 12.3873 6.8625 12.3248 6.85L10.6248 6.35L8.92482 6.85C8.69982 6.9125 8.46232 6.85 8.31232 6.6875C8.14982 6.525 8.08732 6.3 8.14982 6.075L8.64982 4.375L8.14982 2.675C8.08732 2.45 8.14982 2.2125 8.31232 2.0625C8.47482 1.9 8.71232 1.8375 8.92482 1.9L10.6248 2.4L12.3248 1.9C12.5498 1.8375 12.7748 1.9 12.9373 2.0625C13.0998 2.225 13.1623 2.4625 13.0998 2.675L12.5998 4.375L13.0998 6.075C13.1623 6.3 13.0998 6.5375 12.9373 6.6875C12.8248 6.8125 12.6623 6.875 12.4998 6.875ZM10.6248 5.075C10.6873 5.075 10.7373 5.0875 10.7998 5.1L11.5748 5.325L11.3498 4.55C11.3123 4.4375 11.3123 4.3125 11.3498 4.2L11.5748 3.425L10.7998 3.65C10.6873 3.6875 10.5623 3.6875 10.4498 3.65L9.67482 3.425L9.89982 4.2C9.93732 4.3125 9.93732 4.4375 9.89982 4.55L9.67482 5.325L10.4498 5.1C10.5123 5.0875 10.5623 5.075 10.6248 5.075Z"
+                                        fill="url(#paint1_linear_2186_537)" />
+                                    <path
+                                        d="M7.49982 14.375C7.43732 14.375 7.38732 14.3625 7.32482 14.35L5.62482 13.85L3.92482 14.35C3.69982 14.4125 3.47482 14.35 3.31232 14.1875C3.14982 14.025 3.08732 13.7875 3.14982 13.575L3.64982 11.875L3.14982 10.175C3.08732 9.95 3.14982 9.7125 3.31232 9.5625C3.47482 9.4125 3.71232 9.3375 3.92482 9.4L5.62482 9.9L7.32482 9.4C7.53732 9.3375 7.77482 9.4 7.93732 9.5625C8.09982 9.725 8.16232 9.9625 8.09982 10.175L7.59982 11.875L8.09982 13.575C8.16232 13.8 8.09982 14.0375 7.93732 14.1875C7.82482 14.3125 7.66232 14.375 7.49982 14.375ZM5.62482 12.575C5.68732 12.575 5.73732 12.5875 5.79982 12.6L6.57482 12.825L6.34982 12.05C6.31232 11.9375 6.31232 11.8125 6.34982 11.7L6.57482 10.925L5.79982 11.15C5.68732 11.1875 5.56232 11.1875 5.44982 11.15L4.67482 10.925L4.89982 11.7C4.93732 11.8125 4.93732 11.9375 4.89982 12.05L4.67482 12.825L5.44982 12.6C5.51232 12.5875 5.56232 12.575 5.62482 12.575Z"
+                                        fill="url(#paint2_linear_2186_537)" />
+                                    <path
+                                        d="M26.2498 20.625C26.1873 20.625 26.1373 20.6125 26.0748 20.6L24.3748 20.1L22.6748 20.6C22.4498 20.6625 22.2248 20.6 22.0623 20.4375C21.8998 20.275 21.8373 20.0375 21.8998 19.825L22.3998 18.125L21.8998 16.425C21.8373 16.2 21.8998 15.9625 22.0623 15.8125C22.2248 15.6625 22.4623 15.5875 22.6748 15.65L24.3748 16.15L26.0748 15.65C26.2873 15.5875 26.5248 15.65 26.6873 15.8125C26.8498 15.975 26.9123 16.2125 26.8498 16.425L26.3498 18.125L26.8498 19.825C26.9123 20.05 26.8498 20.2875 26.6873 20.4375C26.5748 20.5625 26.4123 20.625 26.2498 20.625ZM24.3748 18.825C24.4373 18.825 24.4873 18.8375 24.5498 18.85L25.3248 19.075L25.0998 18.3C25.0623 18.1875 25.0623 18.0625 25.0998 17.95L25.3248 17.175L24.5498 17.4C24.4373 17.4375 24.3123 17.4375 24.1998 17.4L23.4248 17.175L23.6498 17.95C23.6873 18.0625 23.6873 18.1875 23.6498 18.3L23.4248 19.075L24.1998 18.85C24.2623 18.8375 24.3123 18.825 24.3748 18.825Z"
+                                        fill="url(#paint3_linear_2186_537)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2186_537" x1="23" y1="2" x2="-1" y2="30"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF4848" />
+                                            <stop offset="1" stop-color="#FF8E48" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_2186_537" x1="10.6248" y1="1.87616"
+                                            x2="10.6248" y2="6.875" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF4848" />
+                                            <stop offset="1" stop-color="#FF8E48" />
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear_2186_537" x1="5.62482" y1="9.37616"
+                                            x2="5.62482" y2="14.375" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF4848" />
+                                            <stop offset="1" stop-color="#FF8E48" />
+                                        </linearGradient>
+                                        <linearGradient id="paint3_linear_2186_537" x1="24.3748" y1="15.6262"
+                                            x2="24.3748" y2="20.625" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF4848" />
+                                            <stop offset="1" stop-color="#FF8E48" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <div class="cats-content">
+                                <h4>Art & Humanities</h4>
+                                <p>56/Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                        <div class="cats-box box06">
+                            <span class="cats-icon">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_1229)">
+                                        <path
+                                            d="M28.8281 25.3125H24.1406C23.4934 25.3125 22.9688 25.8371 22.9688 26.4844C22.9688 27.1316 23.4934 27.6562 24.1406 27.6562H28.8281C29.4754 27.6562 30 27.1316 30 26.4844C30 25.8371 29.4754 25.3125 28.8281 25.3125Z"
+                                            fill="url(#paint0_linear_2_1229)" />
+                                        <path
+                                            d="M17.1094 22.9688C15.5817 22.9688 14.2791 23.9486 13.7953 25.3125H1.17188C0.524648 25.3125 0 25.8371 0 26.4844C0 27.1316 0.524648 27.6562 1.17188 27.6562H13.7953C14.2791 29.0202 15.5817 30 17.1094 30C19.0479 30 20.625 28.4229 20.625 26.4844C20.625 24.5459 19.0479 22.9688 17.1094 22.9688ZM17.1094 27.6562C16.4632 27.6562 15.9375 27.1305 15.9375 26.4844C15.9375 25.8382 16.4632 25.3125 17.1094 25.3125C17.7555 25.3125 18.2812 25.8382 18.2812 26.4844C18.2812 27.1305 17.7555 27.6562 17.1094 27.6562Z"
+                                            fill="url(#paint1_linear_2_1229)" />
+                                        <path
+                                            d="M24.1406 0H5.85938C2.62852 0 0 2.62852 0 5.85938V15.2344C0 18.4652 2.62852 21.0938 5.85938 21.0938H24.1406C27.3715 21.0938 30 18.4652 30 15.2344V5.85938C30 2.62852 27.3715 0 24.1406 0ZM27.6562 15.2344C27.6562 17.1729 26.0791 18.75 24.1406 18.75H5.85938C3.92086 18.75 2.34375 17.1729 2.34375 15.2344V5.85938C2.34375 3.92086 3.92086 2.34375 5.85938 2.34375H24.1406C26.0791 2.34375 27.6562 3.92086 27.6562 5.85938V15.2344Z"
+                                            fill="url(#paint2_linear_2_1229)" />
+                                        <path
+                                            d="M21.7969 4.6875C20.2692 4.6875 18.9666 5.6673 18.4828 7.03125H17.5781C14.4273 7.03125 11.6856 8.81707 10.312 11.4295C9.23643 10.1729 7.63928 9.375 5.85938 9.375C5.21215 9.375 4.6875 9.89965 4.6875 10.5469C4.6875 11.1941 5.21215 11.7188 5.85938 11.7188C7.79789 11.7188 9.375 13.2959 9.375 15.2344C9.375 15.8816 9.89965 16.4062 10.5469 16.4062C11.1941 16.4062 11.7188 15.8816 11.7188 15.2344C11.7188 12.0035 14.3473 9.375 17.5781 9.375H18.4828C18.9666 10.7389 20.2692 11.7188 21.7969 11.7188C23.7354 11.7188 25.3125 10.1416 25.3125 8.20312C25.3125 6.26461 23.7354 4.6875 21.7969 4.6875ZM21.7969 9.375C21.1507 9.375 20.625 8.8493 20.625 8.20312C20.625 7.55695 21.1507 7.03125 21.7969 7.03125C22.443 7.03125 22.9688 7.55695 22.9688 8.20312C22.9688 8.8493 22.443 9.375 21.7969 9.375Z"
+                                            fill="url(#paint3_linear_2_1229)" />
+                                    </g>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2_1229" x1="26.4844" y1="25.3125" x2="26.4844"
+                                            y2="27.6562" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF8926" />
+                                            <stop offset="1" stop-color="#FF6246" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_2_1229" x1="10.3125" y1="22.9688" x2="10.3125"
+                                            y2="30" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF8926" />
+                                            <stop offset="1" stop-color="#FF6246" />
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear_2_1229" x1="15" y1="0" x2="15" y2="21.0938"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF8926" />
+                                            <stop offset="1" stop-color="#FF6246" />
+                                        </linearGradient>
+                                        <linearGradient id="paint3_linear_2_1229" x1="15" y1="4.6875" x2="15"
+                                            y2="16.4062" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF8926" />
+                                            <stop offset="1" stop-color="#FF6246" />
+                                        </linearGradient>
+                                        <clipPath id="clip0_2_1229">
+                                            <rect width="30" height="30" fill="#0E0F14" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <div class="cats-content">
+                                <h4>Motion Graphic</h4>
+                                <p>56/Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Top Categories Sec-->
+
+        <!-- START: Our  Popular Courses  Sec -->
+        <section class="popular-courses-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 class="title">Our Popular Courses</h2>
+                    <p class="subtitle">Top courses to boost skills, grow careers, and learn anytime.</p>
+                </div>
+                <div class="popular-courses owl-carousel owl-theme">
+                    <div class="courses-box">
+                        <div class="courses-thumb">
+                            <img src="assets/img/Courses/Popular-Courses01.png" alt="Course Image">
+                            <div class="course-meta">
+                                <a href="#">Beginner</a>
+                                <button id="heart" type="button"> <i class="fa-solid fa-heart "></i></button>
+                            </div>
+                        </div>
+                        <div class="course-contant">
+                            <div class="course-meta-info">
+                                <div class="user-profile">
+                                    <div class="author-img">
+                                        <img src="assets/img/Courses/Robert Fox.jpg" alt="Robert Fox">
+                                    </div>
+                                    <h6 class="author-name">Robert Fox</h6>
+                                </div>
+
+                                <div class="course-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.6</span>
+                                    <span class="review-count">(130 Reviews)</span>
+                                </div>
+                            </div>
+                            <a class="courses-title">
+                                Time Management Mastery: Boost Your Productivity
+                            </a>
+                            <div class="course-shitwild">
+                                <div class="course-meta-details">
+                                    <div class="course-meta-lesson-hour">
+                                        <span class=" icon-play">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="">8h 30min</span>
+                                    </div>
+                                    <div class="course-meta-count-item">
+                                        <span class="icon-clock">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="course-meta__text">12 Lesson</span>
+                                    </div>
+                                </div>
+                                <button class="course-meta-action-btn active">
+                                    <svg class="icon-repeat" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                            fill="#0E0F14" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="course-meta-prices">
+                                <h3 class="course-price">
+                                    <span class="current-price">$100.00</span>
+                                    <del class="old-price">$178.00</del>
+                                </h3>
+                                <a class='active' href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-box">
+                        <div class="courses-thumb">
+                            <img src="assets/img/Courses/Courses02.png" alt="Course Image">
+                            <div class="course-meta">
+                                <a href="#">Beginner</a>
+                                <button type="button"> <i class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="course-contant">
+                            <div class="course-meta-info">
+                                <div class="user-profile">
+                                    <div class="author-img">
+                                        <img src="assets/img/Courses/Mikal.png" alt="Mikal Fox">
+                                    </div>
+                                    <h6 class="author-name">Mikal Kanumba</h6>
+                                </div>
+
+                                <div class="course-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.6</span>
+                                    <span class="review-count">(130 Reviews)</span>
+                                </div>
+                            </div>
+                            <a class="courses-title">
+                                Decision-Making Mastery: Make Better Choices
+                            </a>
+                            <div class="course-shitwild">
+                                <div class="course-meta-details">
+                                    <div class="course-meta-lesson-hour">
+                                        <span class=" icon-play">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="">8h 30min</span>
+                                    </div>
+                                    <div class="course-meta-count-item">
+                                        <span class="icon-clock">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="course-meta__text">12 Lesson</span>
+                                    </div>
+                                </div>
+                                <button class="course-meta-action-btn ">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                            fill="#0E0F14" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="course-meta-prices">
+                                <h3 class="course-price">
+                                    <span class="current-price">$100.00</span>
+                                    <del class="old-price">$178.00</del>
+                                </h3>
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-box">
+                        <div class="courses-thumb">
+                            <img src="assets/img/Courses/Courses03.png" alt="Course Image">
+                            <div class="course-meta">
+                                <a href="#">Beginner</a>
+                                <button type="button"> <i class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="course-contant">
+                            <div class="course-meta-info">
+                                <div class="user-profile">
+                                    <div class="author-img">
+                                        <img src="assets/img/Courses/Antonia.jpg" alt="Antonia Fox">
+                                    </div>
+                                    <h6 class="author-name">Antonia Rodríguez</h6>
+                                </div>
+
+                                <div class="course-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.6</span>
+                                    <span class="review-count">(130 Reviews)</span>
+                                </div>
+                            </div>
+                            <a class="courses-title">
+                                Stress Management: Achieve Inner Peace
+                            </a>
+                            <div class="course-shitwild">
+                                <div class="course-meta-details">
+                                    <div class="course-meta-lesson-hour">
+                                        <span class=" icon-play">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="">8h 30min</span>
+                                    </div>
+                                    <div class="course-meta-count-item">
+                                        <span class="icon-clock">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="course-meta__text">12 Lesson</span>
+                                    </div>
+                                </div>
+                                <button class="course-meta-action-btn ">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                            fill="#0E0F14" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="course-meta-prices">
+                                <h3 class="course-price">
+                                    <span class="current-price">$100.00</span>
+                                    <del class="old-price">$178.00</del>
+                                </h3>
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-box">
+                        <div class="courses-thumb">
+                            <img src="assets/img/Courses/Courses03.png" alt="Course Image">
+                            <div class="course-meta">
+                                <a href="#">Beginner</a>
+                                <button type="button"> <i class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="course-contant">
+                            <div class="course-meta-info">
+                                <div class="user-profile">
+                                    <div class="author-img">
+                                        <img src="assets/img/Courses/Antonia.jpg" alt="Antonia Fox">
+                                    </div>
+                                    <h6 class="author-name">Antonia Rodríguez</h6>
+                                </div>
+
+                                <div class="course-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.6</span>
+                                    <span class="review-count">(130 Reviews)</span>
+                                </div>
+                            </div>
+                            <a class="courses-title">
+                                Stress Management: Achieve Inner Peace
+                            </a>
+                            <div class="course-shitwild">
+                                <div class="course-meta-details">
+                                    <div class="course-meta-lesson-hour">
+                                        <span class=" icon-play">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="">8h 30min</span>
+                                    </div>
+                                    <div class="course-meta-count-item">
+                                        <span class="icon-clock">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="course-meta__text">12 Lesson</span>
+                                    </div>
+                                </div>
+                                <button class="course-meta-action-btn ">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                            fill="#0E0F14" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="course-meta-prices">
+                                <h3 class="course-price">
+                                    <span class="current-price">$100.00</span>
+                                    <del class="old-price">$178.00</del>
+                                </h3>
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-box">
+                        <div class="courses-thumb">
+                            <img src="assets/img/Courses/Courses03.png" alt="Course Image">
+                            <div class="course-meta">
+                                <a href="#">Beginner</a>
+                                <button type="button"> <i class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="course-contant">
+                            <div class="course-meta-info">
+                                <div class="user-profile">
+                                    <div class="author-img">
+                                        <img src="assets/img/Courses/Antonia.jpg" alt="Antonia Fox">
+                                    </div>
+                                    <h6 class="author-name">Antonia Rodríguez</h6>
+                                </div>
+
+                                <div class="course-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.6</span>
+                                    <span class="review-count">(130 Reviews)</span>
+                                </div>
+                            </div>
+                            <a class="courses-title">
+                                Stress Management: Achieve Inner Peace
+                            </a>
+                            <div class="course-shitwild">
+                                <div class="course-meta-details">
+                                    <div class="course-meta-lesson-hour">
+                                        <span class=" icon-play">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="">8h 30min</span>
+                                    </div>
+                                    <div class="course-meta-count-item">
+                                        <span class="icon-clock">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="course-meta__text">12 Lesson</span>
+                                    </div>
+                                </div>
+                                <button class="course-meta-action-btn ">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                            fill="#0E0F14" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="course-meta-prices">
+                                <h3 class="course-price">
+                                    <span class="current-price">$100.00</span>
+                                    <del class="old-price">$178.00</del>
+                                </h3>
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-box">
+                        <div class="courses-thumb">
+                            <img src="assets/img/Courses/Courses03.png" alt="Course Image">
+                            <div class="course-meta">
+                                <a href="#">Beginner</a>
+                                <button type="button"> <i class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="course-contant">
+                            <div class="course-meta-info">
+                                <div class="user-profile">
+                                    <div class="author-img">
+                                        <img src="assets/img/Courses/Antonia.jpg" alt="Antonia Fox">
+                                    </div>
+                                    <h6 class="author-name">Antonia Rodríguez</h6>
+                                </div>
+
+                                <div class="course-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.6</span>
+                                    <span class="review-count">(130 Reviews)</span>
+                                </div>
+                            </div>
+                            <a class="courses-title">
+                                Stress Management: Achieve Inner Peace
+                            </a>
+                            <div class="course-shitwild">
+                                <div class="course-meta-details">
+                                    <div class="course-meta-lesson-hour">
+                                        <span class=" icon-play">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="">8h 30min</span>
+                                    </div>
+                                    <div class="course-meta-count-item">
+                                        <span class="icon-clock">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="course-meta__text">12 Lesson</span>
+                                    </div>
+                                </div>
+                                <button class="course-meta-action-btn ">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                            fill="#0E0F14" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="course-meta-prices">
+                                <h3 class="course-price">
+                                    <span class="current-price">$100.00</span>
+                                    <del class="old-price">$178.00</del>
+                                </h3>
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses-box">
+                        <div class="courses-thumb">
+                            <img src="assets/img/Courses/Courses03.png" alt="Course Image">
+                            <div class="course-meta">
+                                <a href="#">Beginner</a>
+                                <button type="button"> <i class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="course-contant">
+                            <div class="course-meta-info">
+                                <div class="user-profile">
+                                    <div class="author-img">
+                                        <img src="assets/img/Courses/Antonia.jpg" alt="Antonia Fox">
+                                    </div>
+                                    <h6 class="author-name">Antonia Rodríguez</h6>
+                                </div>
+
+                                <div class="course-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.6</span>
+                                    <span class="review-count">(130 Reviews)</span>
+                                </div>
+                            </div>
+                            <a class="courses-title">
+                                Stress Management: Achieve Inner Peace
+                            </a>
+                            <div class="course-shitwild">
+                                <div class="course-meta-details">
+                                    <div class="course-meta-lesson-hour">
+                                        <span class=" icon-play">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="">8h 30min</span>
+                                    </div>
+                                    <div class="course-meta-count-item">
+                                        <span class="icon-clock">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                    stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                        <span class="course-meta__text">12 Lesson</span>
+                                    </div>
+                                </div>
+                                <button class="course-meta-action-btn ">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                            fill="#0E0F14" />
+                                        <path
+                                            d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                            fill="#0E0F14" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="course-meta-prices">
+                                <h3 class="course-price">
+                                    <span class="current-price">$100.00</span>
+                                    <del class="old-price">$178.00</del>
+                                </h3>
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-course">
+                    <a class="view-btn" href="#">View All Course</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- END: Our  Popular Courses  Sec -->
+
+        <!-- START: Trending Courses Sec -->
+        <section class="trending-courses-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 class="title">Trending Courses</h2>
+                    <p class="subtitle">Top courses to boost skills, grow careers, and learn anytime.</p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="courses-box">
+                            <div class="courses-thumb">
+                                <img src="assets/img/Courses/Courses04.png" alt="Course Image">
+                                <div class="course-meta">
+                                    <a href="#">Beginner</a>
+                                    <button id="heart" type="button"> <i class="fa-solid fa-heart "></i></button>
+                                </div>
+                            </div>
+                            <div class="course-contant">
+                                <div class="course-meta-info">
+                                    <div class="user-profile">
+                                        <div class="author-img">
+                                            <img src="assets/img/Courses/Robert Fox.jpg" alt="Robert Fox">
+                                        </div>
+                                        <h6 class="author-name">Jakob Novak</h6>
+                                    </div>
+
+                                    <div class="course-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="rating-number">4.6</span>
+                                        <span class="review-count">(130 Reviews)</span>
+                                    </div>
+                                </div>
+                                <a class="courses-title">
+                                    Time Management Mastery: Boost Your Productivity
+                                </a>
+                                <div class="course-shitwild">
+                                    <div class="course-meta-details">
+                                        <div class="course-meta-lesson-hour">
+                                            <span class=" icon-play">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="">8h 30min</span>
+                                        </div>
+                                        <div class="course-meta-count-item">
+                                            <span class="icon-clock">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="course-meta__text">12 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <button class="course-meta-action-btn ">
+                                        <svg class="icon-repeat" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                                fill="#0E0F14"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="course-meta-prices">
+                                    <h3 class="course-price">
+                                        <span class="current-price">$100.00</span>
+                                        <del class="old-price">$178.00</del>
+                                    </h3>
+                                    <a class="" href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="courses-box">
+                            <div class="courses-thumb">
+                                <img src="assets/img/Courses/Courses05.png" alt="Course Image">
+                                <div class="course-meta">
+                                    <a href="#">Beginner</a>
+                                    <button id="heart" type="button"> <i class="fa-solid fa-heart "></i></button>
+                                </div>
+                            </div>
+                            <div class="course-contant">
+                                <div class="course-meta-info">
+                                    <div class="user-profile">
+                                        <div class="author-img">
+                                            <img src="assets/img/Courses/Lisa.png" alt="lisa">
+                                        </div>
+                                        <h6 class="author-name">Lisa Martinez</h6>
+                                    </div>
+
+                                    <div class="course-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="rating-number">4.6</span>
+                                        <span class="review-count">(130 Reviews)</span>
+                                    </div>
+                                </div>
+                                <a class="courses-title">
+                                    Decision-Making Mastery: Make Better Choices
+                                </a>
+                                <div class="course-shitwild">
+                                    <div class="course-meta-details">
+                                        <div class="course-meta-lesson-hour">
+                                            <span class=" icon-play">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="">8h 30min</span>
+                                        </div>
+                                        <div class="course-meta-count-item">
+                                            <span class="icon-clock">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="course-meta__text">12 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <button class="course-meta-action-btn ">
+                                        <svg class="icon-repeat" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                                fill="#0E0F14"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="course-meta-prices">
+                                    <h3 class="course-price">
+                                        <span class="current-price">$100.00</span>
+                                        <del class="old-price">$178.00</del>
+                                    </h3>
+                                    <a class="" href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="courses-box">
+                            <div class="courses-thumb">
+                                <img src="assets/img/Courses/Courses02.png" alt="Course Image">
+                                <div class="course-meta">
+                                    <a href="#">Beginner</a>
+                                    <button id="heart" type="button"> <i class="fa-solid fa-heart "></i></button>
+                                </div>
+                            </div>
+                            <div class="course-contant">
+                                <div class="course-meta-info">
+                                    <div class="user-profile">
+                                        <div class="author-img">
+                                            <img src="assets/img/Courses/Mikal.png" alt="lisa">
+                                        </div>
+                                        <h6 class="author-name">Mikal Kanumba</h6>
+                                    </div>
+
+                                    <div class="course-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="rating-number">4.6</span>
+                                        <span class="review-count">(130 Reviews)</span>
+                                    </div>
+                                </div>
+                                <a class="courses-title">
+                                    Decision-Making Mastery: Make Better Choices
+                                </a>
+                                <div class="course-shitwild">
+                                    <div class="course-meta-details">
+                                        <div class="course-meta-lesson-hour">
+                                            <span class=" icon-play">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="">8h 30min</span>
+                                        </div>
+                                        <div class="course-meta-count-item">
+                                            <span class="icon-clock">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="course-meta__text">12 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <button class="course-meta-action-btn ">
+                                        <svg class="icon-repeat" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                                fill="#0E0F14"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="course-meta-prices">
+                                    <h3 class="course-price">
+                                        <span class="current-price">$100.00</span>
+                                        <del class="old-price">$178.00</del>
+                                    </h3>
+                                    <a class="" href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="courses-box">
+                            <div class="courses-thumb">
+                                <img src="assets/img/Courses/Courses03.png" alt="Course Image">
+                                <div class="course-meta">
+                                    <a href="#">Beginner</a>
+                                    <button id="heart" type="button"> <i class="fa-solid fa-heart "></i></button>
+                                </div>
+                            </div>
+                            <div class="course-contant">
+                                <div class="course-meta-info">
+                                    <div class="user-profile">
+                                        <div class="author-img">
+                                            <img src="assets/img/Courses/Mikal.png" alt="lisa">
+                                        </div>
+                                        <h6 class="author-name">Joaquín Romero</h6>
+                                    </div>
+
+                                    <div class="course-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="rating-number">4.6</span>
+                                        <span class="review-count">(130 Reviews)</span>
+                                    </div>
+                                </div>
+                                <a class="courses-title">
+                                    Effective Communication Skills: Connect and Influence
+                                </a>
+                                <div class="course-shitwild">
+                                    <div class="course-meta-details">
+                                        <div class="course-meta-lesson-hour">
+                                            <span class=" icon-play">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="">8h 30min</span>
+                                        </div>
+                                        <div class="course-meta-count-item">
+                                            <span class="icon-clock">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="course-meta__text">12 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <button class="course-meta-action-btn ">
+                                        <svg class="icon-repeat" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                                fill="#0E0F14"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="course-meta-prices">
+                                    <h3 class="course-price">
+                                        <span class="current-price">$100.00</span>
+                                        <del class="old-price">$178.00</del>
+                                    </h3>
+                                    <a class="" href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="courses-box">
+                            <div class="courses-thumb">
+                                <img src="assets/img/Courses/Courses02.png" alt="Course Image">
+                                <div class="course-meta">
+                                    <a href="#">Beginner</a>
+                                    <button id="heart" type="button"> <i class="fa-solid fa-heart "></i></button>
+                                </div>
+                            </div>
+                            <div class="course-contant">
+                                <div class="course-meta-info">
+                                    <div class="user-profile">
+                                        <div class="author-img">
+                                            <img src="assets/img/Courses/Lisa.png" alt="lisa">
+                                        </div>
+                                        <h6 class="author-name">Artsiom Nowak</h6>
+                                    </div>
+
+                                    <div class="course-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="rating-number">4.6</span>
+                                        <span class="review-count">(130 Reviews)</span>
+                                    </div>
+                                </div>
+                                <a class="courses-title">
+                                    Leadership Essentials: Inspire and Influence
+                                </a>
+                                <div class="course-shitwild">
+                                    <div class="course-meta-details">
+                                        <div class="course-meta-lesson-hour">
+                                            <span class=" icon-play">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="">8h 30min</span>
+                                        </div>
+                                        <div class="course-meta-count-item">
+                                            <span class="icon-clock">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="course-meta__text">12 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <button class="course-meta-action-btn ">
+                                        <svg class="icon-repeat" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                                fill="#0E0F14"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="course-meta-prices">
+                                    <h3 class="course-price">
+                                        <span class="current-price">$100.00</span>
+                                        <del class="old-price">$178.00</del>
+                                    </h3>
+                                    <a class="" href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="courses-box">
+                            <div class="courses-thumb">
+                                <img src="assets/img/Courses/Courses06.png" alt="Course Image">
+                                <div class="course-meta">
+                                    <a href="#">Beginner</a>
+                                    <button id="heart" type="button"> <i class="fa-solid fa-heart "></i></button>
+                                </div>
+                            </div>
+                            <div class="course-contant">
+                                <div class="course-meta-info">
+                                    <div class="user-profile">
+                                        <div class="author-img">
+                                            <img src="assets/img/Courses/Mikal.png" alt="lisa">
+                                        </div>
+                                        <h6 class="author-name">Mahmoud Bankole</h6>
+                                    </div>
+
+                                    <div class="course-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="rating-number">4.6</span>
+                                        <span class="review-count">(130 Reviews)</span>
+                                    </div>
+                                </div>
+                                <a class="courses-title">
+                                    Stress Management: Achieve Inner Peace
+                                </a>
+                                <div class="course-shitwild">
+                                    <div class="course-meta-details">
+                                        <div class="course-meta-lesson-hour">
+                                            <span class=" icon-play">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.625 0.5C11.5594 0.5 14.75 3.68986 14.75 7.625C14.75 11.5601 11.5594 14.75 7.625 14.75C3.68986 14.75 0.5 11.5601 0.5 7.625C0.5 3.68986 3.68986 0.5 7.625 0.5Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M9.875 7.62136C9.875 7.01301 6.7569 5.06684 6.40318 5.41677C6.04947 5.76671 6.01546 9.44304 6.40318 9.82594C6.79091 10.2102 9.875 8.22971 9.875 7.62136Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="">8h 30min</span>
+                                        </div>
+                                        <div class="course-meta-count-item">
+                                            <span class="icon-clock">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.9375 9.00037C15.9375 12.8321 12.8318 15.9379 9 15.9379C5.16825 15.9379 2.0625 12.8321 2.0625 9.00037C2.0625 5.16862 5.16825 2.06287 9 2.06287C12.8318 2.06287 15.9375 5.16862 15.9375 9.00037Z"
+                                                        stroke="#FF8926" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                    <path d="M11.5736 11.2071L8.74609 9.52038V5.88513" stroke="#FF8926"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+
+                                            </span>
+                                            <span class="course-meta__text">12 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <button class="course-meta-action-btn ">
+                                        <svg class="icon-repeat" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.6134 8.14665C13.3401 8.14665 13.1134 7.91998 13.1134 7.64665V5.43335C13.1134 4.60668 12.4401 3.93335 11.6134 3.93335H2.38672C2.11339 3.93335 1.88672 3.70668 1.88672 3.43335C1.88672 3.16002 2.11339 2.93335 2.38672 2.93335H11.6134C12.9934 2.93335 14.1134 4.05335 14.1134 5.43335V7.64665C14.1134 7.92665 13.8867 8.14665 13.6134 8.14665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M4.49339 6.04665C4.36672 6.04665 4.24006 5.99996 4.14006 5.89996L2.03339 3.79332C1.94005 3.69998 1.88672 3.5733 1.88672 3.43996C1.88672 3.30663 1.94005 3.17998 2.03339 3.08665L4.14006 0.979961C4.33339 0.786628 4.65339 0.786628 4.84672 0.979961C5.04005 1.17329 5.04005 1.49333 4.84672 1.68667L3.0934 3.43996L4.84672 5.1933C5.04005 5.38663 5.04005 5.70663 4.84672 5.89996C4.74672 5.9933 4.62005 6.04665 4.49339 6.04665Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M13.6134 13.06H4.38672C3.00672 13.06 1.88672 11.94 1.88672 10.56V8.34668C1.88672 8.07335 2.11339 7.84668 2.38672 7.84668C2.66005 7.84668 2.88672 8.07335 2.88672 8.34668V10.56C2.88672 11.3867 3.56005 12.06 4.38672 12.06H13.6134C13.8867 12.06 14.1134 12.2867 14.1134 12.56C14.1134 12.8334 13.8867 13.06 13.6134 13.06Z"
+                                                fill="#0E0F14"></path>
+                                            <path
+                                                d="M11.5066 15.1666C11.38 15.1666 11.2533 15.12 11.1533 15.02C10.96 14.8266 10.96 14.5066 11.1533 14.3133L12.9066 12.56L11.1533 10.8066C10.96 10.6133 10.96 10.2933 11.1533 10.1C11.3466 9.90662 11.6666 9.90662 11.86 10.1L13.9666 12.2066C14.06 12.2999 14.1133 12.4266 14.1133 12.56C14.1133 12.6933 14.06 12.8199 13.9666 12.9133L11.86 15.02C11.7666 15.12 11.64 15.1666 11.5066 15.1666Z"
+                                                fill="#0E0F14"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="course-meta-prices">
+                                    <h3 class="course-price">
+                                        <span class="current-price">$100.00</span>
+                                        <del class="old-price">$178.00</del>
+                                    </h3>
+                                    <a class="" href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="view-course">
+                    <a class="view-btn" href="#">View All Course</a>
+                </div>
+        </section>
+        <!-- END: Trending Courses Sec -->
+
+        <!-- START: About Us Sec-->
+        <section class="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 cod-md-12 col-sm-12">
+                        <div class="about-img-thums">
+                            <img src="assets/img/about-img.png" alt="Onlinedu">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="abour-content-wraper">
+                            <div class="about-btn">
+                                <a href="">ABOUT US</a>
+                            </div>
+                            <h3 class="title">Empowering Businesses with Quality Education</h3>
+                            <p class="subtitle">Having enjoyed a breathlessly successful 2015, there can be no DJ
+                                position as Continues underground Class has a dynamic set of teaching tools built to be
+                                deployed Class has a dynamic set of teaching tools built to be deployed and used during
+                                class. Teachers can handout assignments and submit.</p>
+                            <div class="about-info">
+                                <ul>
+                                    <li>
+                                        <span class="icon-box"><i class="fa-solid fa-check"></i></span>
+                                        Expert Instructors
+                                    </li>
+                                    <li>
+                                        <span class="icon-box"><i class="fa-solid fa-check"></i></span>
+                                        Flexible Learning Solutions
+                                    </li>
+                                    <li>
+                                        <span class="icon-box"><i class="fa-solid fa-check"></i></span>
+                                        Quality Education
+                                    </li>
+                                    <li>
+                                        <span class="icon-box"><i class="fa-solid fa-check"></i></span>
+                                        Industry Courses
+                                    </li>
+                                </ul>
+                            </div>
+                            <a class="dis-btn" href="#">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- END: About Us Sec -->
+
+        <!-- START: Expert Instructor Sec  -->
+        <section class="expt-inst-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 class="title">Our expert instructor</h2>
+                    <p class="subtitle">They efficiently serve large number of students on our platform.</p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="inst-profile-wraper">
+                            <div class="inst-img-thumb">
+                                <img src="assets/img/instructor/Aaron Tessa.png" alt="">
+                            </div>
+                            <div class="socilmedia-icon">
+                                <a class="active icon" href=""> <i class="fa-brands fa-facebook"></i></a>
+                                <a href=""> <i class="fa-brands fa-x-twitter"></i></a>
+                                <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                                <a href=""> <i class="fa-brands fa-linkedin"></i></i></a>
+                            </div>
+                            <div class="inst-contant">
+                                <a href="#">Aaron Tessa</a>
+                                <p class="roll"> IT Technician at IBM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="inst-profile-wraper">
+                            <div class="inst-img-thumb">
+                                <img src="assets/img/instructor/Ryder Sadie.png" alt="">
+                            </div>
+                            <div class="socilmedia-icon">
+                                <a class="active icon" href=""> <i class="fa-brands fa-facebook"></i></a>
+                                <a href=""> <i class="fa-brands fa-x-twitter"></i></a>
+                                <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                                <a href=""> <i class="fa-brands fa-linkedin"></i></i></a>
+                            </div>
+                            <div class="inst-contant">
+                                <a href="#">Ryder Sadie</a>
+                                <p class="roll">DaVinci Resolve Trainer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="inst-profile-wraper">
+                            <div class="inst-img-thumb">
+                                <img src="assets/img/instructor/Preston Rhys.png" alt="">
+                            </div>
+                            <div class="socilmedia-icon">
+                                <a class="active icon" href=""> <i class="fa-brands fa-facebook"></i></a>
+                                <a href=""> <i class="fa-brands fa-x-twitter"></i></a>
+                                <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                                <a href=""> <i class="fa-brands fa-linkedin"></i></i></a>
+                            </div>
+                            <div class="inst-contant">
+                                <a href="#">Preston Rhys</a>
+                                <p class="roll">Computer Engineer at Oracle</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="inst-profile-wraper">
+                            <div class="inst-img-thumb">
+                                <img src="assets/img/instructor/Violet Rhys.png" alt="">
+                            </div>
+                            <div class="socilmedia-icon">
+                                <a class="active icon" href=""> <i class="fa-brands fa-facebook"></i></a>
+                                <a href=""> <i class="fa-brands fa-x-twitter"></i></a>
+                                <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                                <a href=""> <i class="fa-brands fa-linkedin"></i></i></a>
+                            </div>
+                            <div class="inst-contant">
+                                <a href="#">Violet Rhys</a>
+                                <p class="roll"> IT Director at Cognizant </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <!-- END: Expert Instructor Sec  -->
+
+        <!-- START: Frequently Asked Questions Sec-->
+        <section class="asked-questions-arrea">
+            <div class="container">
+                <div class="section-heading ask-qs-heading">
+                    <h2 class="title ">Frequently Asked Questions</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="have-questions-wrapar">
+                            <div class="accordion qs-accordion" id="faqAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button active" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#itmasBody01" aria-expanded="true"
+                                            aria-controls="itmasBody01">
+                                            Who is this educational platform for?
+                                        </button>
+                                    </h2>
+                                    <div id="itmasBody01" class="accordion-collapse collapse show"
+                                        data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            Our finance education platform is designed for ambitious finance
+                                            professionals seeking to elevate their careers to top positions in
+                                            international companies.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody02"
+                                            aria-expanded="false" aria-controls="itmasBody02">
+                                            What are the payment options?
+                                        </button>
+                                    </h2>
+                                    <!-- Removed 'show' class here -->
+                                    <div id="itmasBody02" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            We accept major credit cards, PayPal, and bank transfers. Please contact
+                                            support
+                                            for corporate invoicing options.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody03"
+                                            aria-expanded="false" aria-controls="itmasBody03">
+                                            What is included in my subscription?
+                                        </button>
+                                    </h2>
+
+                                    <div id="itmasBody03" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            We accept major credit cards, PayPal, and bank transfers. Please contact
+                                            support
+                                            for corporate invoicing options.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody04"
+                                            aria-expanded="false" aria-controls="itmasBody04">
+                                            Will I receive a certificate?
+                                        </button>
+                                    </h2>
+
+                                    <div id="itmasBody04" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            We accept major credit cards, PayPal, and bank transfers. Please contact
+                                            support
+                                            for corporate invoicing options.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody05"
+                                            aria-expanded="false" aria-controls="itmasBody05">
+                                            What payment methods are allowed?
+                                        </button>
+                                    </h2>
+
+                                    <div id="itmasBody05" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            We accept major credit cards, PayPal, and bank transfers. Please contact
+                                            support
+                                            for corporate invoicing options.
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="have-questions-wrapar">
+                            <div class="accordion qs-accordion" id="faqAccordion01">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody06"
+                                            aria-expanded="false" aria-controls="itmasBody06">
+                                            How to get access?
+                                        </button>
+                                    </h2>
+                                    <div id="itmasBody06" class="accordion-collapse collapse "
+                                        data-bs-parent="#faqAccordion01">
+                                        <div class="accordion-body">
+                                            Our finance education platform is designed for ambitious finance
+                                            professionals seeking to elevate their careers to top positions in
+                                            international companies.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody07"
+                                            aria-expanded="false" aria-controls="itmasBody07">
+                                            Should I renew my annual membership each year?
+                                        </button>
+                                    </h2>
+                                    <!-- Removed 'show' class here -->
+                                    <div id="itmasBody07" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion01">
+                                        <div class="accordion-body">
+                                            We accept major credit cards, PayPal, and bank transfers. Please contact
+                                            support
+                                            for corporate invoicing options.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody08"
+                                            aria-expanded="false" aria-controls="itmasBody08">
+                                            How to cancel a membership?
+                                        </button>
+                                    </h2>
+
+                                    <div id="itmasBody08" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion01">
+                                        <div class="accordion-body">
+                                            We accept major credit cards, PayPal, and bank transfers. Please contact
+                                            support
+                                            for corporate invoicing options.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody09"
+                                            aria-expanded="false" aria-controls="itmasBody09">
+                                            Can I buy individual courses without a subscription?
+                                        </button>
+                                    </h2>
+
+                                    <div id="itmasBody09" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion01">
+                                        <div class="accordion-body">
+                                            We accept major credit cards, PayPal, and bank transfers. Please contact
+                                            support
+                                            for corporate invoicing options.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody10"
+                                            aria-expanded="false" aria-controls="itmasBody10">
+                                            What if I don’t like the courses or materials?
+                                        </button>
+                                    </h2>
+
+                                    <div id="itmasBody10" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion01">
+                                        <div class="accordion-body">
+                                            We accept major credit cards, PayPal, and bank transfers. Please contact
+                                            support
+                                            for corporate invoicing options.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#itmasBody11"
+                                            aria-expanded="false" aria-controls="itmasBody11">
+                                            Are the Excel templates editable?
+                                        </button>
+                                    </h2>
+
+                                    <div id="itmasBody11" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion01">
+                                        <div class="accordion-body">
+                                            We accept major credit cards, PayPal, and bank transfers. Please contact
+                                            support
+                                            for corporate invoicing options.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Frequently Asked Questions Sec-->
+
+        <!--START: Clients Feedback Sec-->
+        <section class="clients-feedback-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 class="title">What Our Clients Feedback</h2>
+                    <p class="subtitle">Visit our valuable articles to get more information.</p>
+                </div>
+                <div class="client-carousel owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                It fits our needs perfectly. It is definitely worth the investment. Your company is
+                                upstanding with and is behind its product 100%.
+
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/Clients01.png" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Dave Jones</h6>
+                                        <p>UI/UX</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                I've tried several solutions, but this one stands out for its reliability. The
+                                integration capabilities are fantastic. We're very pleased with our choice.
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/client02.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Emily Johnson</h6>
+                                        <p>Software Engineer</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                The platform has significantly improved our workflow. The customer support is
+                                exceptional, always ready to assist. I highly recommend it to anyone in the industry.
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/client3.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Dave Jones</h6>
+                                        <p>Project Manager</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                It fits our needs perfectly. It is definitely worth the investment. Your company is
+                                upstanding with and is behind its product 100%.
+
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/lclient4.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Kiki Bahrul</h6>
+                                        <p>Webflow Developer</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte5.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Michael Brown</h6>
+                                        <p>Product Designer</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte6.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Risky Adongan</h6>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte5.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Michael Brown</h6>
+                                        <p>Product Designer</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte6.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Risky Adongan</h6>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte5.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Michael Brown</h6>
+                                        <p>Product Designer</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte6.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Risky Adongan</h6>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte5.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Michael Brown</h6>
+                                        <p>Product Designer</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte6.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Risky Adongan</h6>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte5.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Michael Brown</h6>
+                                        <p>Product Designer</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <p class="client-feedback-text">
+                                This tool has streamlined our processes and increased productivity. The features are
+                                user-friendly and intuitive. It's a game changer for our team!
+                            </p>
+                            <div class="client-details">
+                                <div class="client-profile">
+                                    <div class="clinent-thumb">
+                                        <img src="assets/img/Clients/clinte6.jpg" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h6>Risky Adongan</h6>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                                <div class="client-reviews">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!--END: Clients Feedback Sec-->
+
+        <!-- START:  Our New Articles Sec -->
+        <section class="our-new-articles-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 class="title">Our New Articles</h2>
+                    <p class="subtitle">Visit our valuable articles to get more information.</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="articles-box-wraper">
+                            <img src="assets/img/articles/img01.png" alt="">
+                            <div class="articles-content">
+                                <h4 class="art-title">Challenges and Opportunities in Digital Marketing</h4>
+                                <p class="art-subtitle">Explore expert tips, hiring trends, and real-world success
+                                    stories. Stay ahead in the ever-evolving recruitment landscape.</p>
+                                <div class="art-footer">
+                                    <p class="art-date">01 Jan 2025</p>
+                                    <a class="read-more-Cont" href="#"> Read More <i
+                                            class="fa-solid fa-angle-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="articles-box-wraper">
+                            <img src="assets/img/articles/img02.png" alt="">
+                            <div class="articles-content">
+                                <h4 class="art-title">Mental Health Awareness in the Workplace</h4>
+                                <p class="art-subtitle">From candidate experience to employer branding, our blog has
+                                    everything to help you hire with confidence.</p>
+                                <div class="art-footer">
+                                    <p class="art-date">01 Jan 2025</p>
+                                    <a class="read-more-Cont" href="#"> Read More <i
+                                            class="fa-solid fa-angle-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="articles-box-wraper">
+                            <img src="assets/img/articles/img03.png" alt="">
+                            <div class="articles-content">
+                                <h4 class="art-title">Balancing Work and Life in the Remote Era</h4>
+                                <p class="art-subtitle">Actionable content curated by hiring pros and industry leaders.
+                                    Learn, adapt, and build winning teams faster.</p>
+                                <div class="art-footer">
+                                    <p class="art-date">01 Jan 2025</p>
+                                    <a class="read-more-Cont" href="#"> Read More
+                                        <i class="fa-solid fa-angle-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Our New Articles Sec -->
+
+        <!-- START: Become a Student Banner Sec -->
+        <section class="become-Student-banner-arrea">
+            <div class="container">
+                <div class="sb-banner-wraper">
+                    <div class="content-left">
+                        <h1>Become a Student!</h1>
+                        <p>Teach thousands of students and earn money!</p>
+                        <a href="#" class="gst-btn">Get Started</a>
+                    </div>
+                    <div class="content-right">
+                        <div class="bs-thumb">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Become a Student Banner Sec! -->
+    </main>
+    <!-- END: Main  Area  -->
+
+    <!-- START: Footer Area  -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row top-footer-sec">
+                <div class="col-8">
+                    <div class="ft-left-content">
+                        <div class="logo">
+                            <img src="assets/img/footer-logo.png" alt="">
+                        </div>
+                        <p>Enter your email address to get $10 off your first order and free shipping.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="ft-right-contact">
+                        <h4 class="contact-title">Contact Us</h4>
+                        <ul>
+                            <li> <i class="fa-solid fa-phone"></i> <a href="">(91) 98765 4321 54</a></li>
+                            <li> <i class="fa-solid fa-envelope"></i><a href="">support@mail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row ft-menu-content">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="footer-newsletter">
+                        <h4>Sign Up for Email</h4>
+                        <p>Sign up to get first dibs on new arrivals, sales, exclusive content, events and more!</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Email">
+                            <button>Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-2  col-lg-2 col-md-3 col-sm-3">
+                    <div class="ft-menu-lists">
+                        <h5 class="menu-title">Company</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Testimonial</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3">
+                    <div class="ft-menu-lists">
+                        <h5 class="menu-title">Legal</h5>
+                        <ul>
+                            <li><a href="#">Terms of services</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Community</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3">
+                    <div class="ft-menu-lists">
+                        <h5 class="menu-title">Links</h5>
+                        <ul>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Become Teacher</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">All in One</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lx-2 col-lg-2 col-md-3 col-sm-3">
+                    <div class="ft-menu-lists">
+                        <h5 class="menu-title">Support</h5>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Tweet @ Us</a></li>
+                            <li><a href="#">Webians</a></li>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="ft-copyright-ariea">
+                    <p class="copyright">
+                        &copy; 2025 Worksync. Design. All right reserved
+                    </p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END: Footer Area  -->
+
+    <!-- START: Js Files -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/jquery.nice-select.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- End: Js Files -->
+
+</body>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('../fonts/PlusJakartaSans/PlusJakartaSans-Bold.eot');
+    src: url('../fonts/PlusJakartaSans/PlusJakartaSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Bold.woff') format('woff'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('../fonts/PlusJakartaSans/PlusJakartaSans-Medium.eot');
+    src: url('../fonts/PlusJakartaSans/PlusJakartaSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Medium.woff') format('woff'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('../fonts/PlusJakartaSans/PlusJakartaSans-Regular.eot');
+    src: url('../fonts/PlusJakartaSans/PlusJakartaSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Regular.woff') format('woff'),
+        url('PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('../fonts/PlusJakartaSans/PlusJakartaSans-Light.eot');
+    src: url('../fonts/PlusJakartaSans/PlusJakartaSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Light.woff') format('woff'),
+        url('../fonts/PlusJakartaSans/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter Display';
+    src: url('../fonts/InterDisplay/InterDisplay-Light.eot');
+    src: url('../fonts/InterDisplay/InterDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/InterDisplay/InterDisplay-Light.woff2') format('woff2'),
+        url('../fonts/InterDisplay/InterDisplay-Light.woff') format('woff'),
+        url('../fonts/InterDisplay/InterDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter Display';
+    src: url('../fonts/InterDisplay/InterDisplay-Bold.eot');
+    src: url('../fonts/InterDisplay/InterDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/InterDisplay/InterDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/InterDisplay/InterDisplay-Bold.woff') format('woff'),
+        url('../fonts/InterDisplay/InterDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter Display';
+    src: url('../fonts/InterDisplay/InterDisplay-Medium.eot');
+    src: url('../fonts/InterDisplay/InterDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/InterDisplay/InterDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/InterDisplay/InterDisplay-Medium.woff') format('woff'),
+        url('../fonts/InterDisplay/InterDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter Display';
+    src: url('../fonts/InterDisplay/InterDisplay-Regular.eot');
+    src: url('../fonts/InterDisplay/InterDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/InterDisplay/InterDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/InterDisplay/InterDisplay-Regular.woff') format('woff'),
+        url('../fonts/InterDisplay/InterDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
